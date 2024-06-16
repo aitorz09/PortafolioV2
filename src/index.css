@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .link{
+    @apply text-lg before:content-[""] before:bg-white before:h-px before:absolute before:left-0 before:w-2 before:bottom-0 before:hover:w-full before:transition-all
+  }
+}

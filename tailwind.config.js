@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  mode:'jit',
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -11,13 +12,25 @@ export default {
       }
     },
     screens: {
+      'sm':'640px',
       'custom': '650px',
+      'md':'768px',
+      'lg':'1024px',
+      'xl':'1280px'
     },
     gridTemplateRows:{
-      'grid-row-1f5fr':'1fr 5fr 5fr',
+      'grid-row-1f5fr':'1fr 4fr 4fr',
       'grid-cuadrado':'1fr 1fr'
+    },
+    fontFamily:{
+      'dosis':'Dosis, sans-serif'
+    },
+    minWidth:{
+      'min-w-600px':'600px',
+      'min-w-350px':'350px'
     }
   },
-  plugins: [],
+  plugins: [
+  ],
 }
 
