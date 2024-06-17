@@ -135,15 +135,14 @@ export const myWork: Work[] = [
     nombre: "Travel Journal",
     imagenUrl: travelimg,
     url:'https://aitorz09.github.io/ReactTravelJournal1/',
-    descripcion: `Una página web diseñada para simular una red social, permitiendo a los usuarios publicar posts que incluyen imágenes. Estos posts pueden ser votados y comentados por usuarios registrados. Además, la aplicación incluye funcionalidad para el registro de nuevos usuarios.
-    La aplicación se conecta a una API desarrollada con Node.js utilizando Express como framework y MySQL como base de datos para almacenar y gestionar la información de los usuarios, posts, votos y comentarios.`,
+    descripcion: `Una página web diseñada para simular una red social, permitiendo a los usuarios publicar posts que incluyen imágenes. Estos posts pueden ser votados y comentados por usuarios registrados.`,
     tecnologias: [react,javascript,css,html5,mysql,nodejs]
   },
   {
     nombre: "API Travel Journal",
     imagenUrl: travelbackimg,
     url:'https://aithorapps.com',
-    descripcion: 'Una API creada durante el bootcamp realizado en Hack a Boss, en esta API hemos integrado una gran mayorica de los conocimientos que hemos ido aprendiendo hasta el momento.',
+    descripcion: 'Una API desarrollada con Node.js utilizando Express como framework y MySQL como base de datos para almacenar y gestionar la información de los usuarios, la base de datos esta poblado por Faker un dependencia que genera información fake, como los posts, votos y comentarios. Puedes probar alguno de los endpoints como /posts, /posts/random, /posts/:idPost',
     tecnologias: [javascript,mysql,nodejs]
   },
   {
